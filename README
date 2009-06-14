@@ -19,5 +19,7 @@ $plugins may plugin name as string or array.
 Plugins exports test methods.
 
 
+See also: http://wiki.github.com/nekoya/Lime-Test-Pluggable
+
 @license  http://www.opensource.org/licenses/mit-license.php MIT License
 @author   nekoya as Ryo Miyake <ryo.studiom@gmail.com>

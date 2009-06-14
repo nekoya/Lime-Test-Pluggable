@@ -8,6 +8,7 @@
  * @author     nekoya as Ryo Miyake <ryo.studiom@gmail.com>
  * @copyright  2009 nekoya
  * @license    http://www.opensource.org/licenses/mit-license.php MIT License
+ * @url        http://wiki.github.com/nekoya/Lime-Test-Pluggable
  * @version    1.0.0
  */
 if (!class_exists('lime_test', false)) {
