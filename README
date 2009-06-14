@@ -1,0 +1,23 @@
+
+Lime Test Pluggable  - added plugin support for lime -
+
+ lime_test_pluggable based on test framework -lime- for symfony.
+ - http://trac.symfony-project.org/browser/tools/lime/
+
+
+* USAGE
+
+In your code
+
+  require 'lib/lime/pluggable.php';
+  $t = new lime_test_pluggable();
+  $t->output = new lime_output_color();
+  $t->loadPlugins($plugins);
+  $t->$method( ... );
+
+$plugins may plugin name as string or array.
+Plugins exports test methods.
+
+
+@license  http://www.opensource.org/licenses/mit-license.php MIT License
+@author   nekoya as Ryo Miyake <ryo.studiom@gmail.com>
